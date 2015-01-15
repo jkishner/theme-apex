@@ -195,7 +195,7 @@
 
             {{ theme.social.bar }}
 
-<p>This post was last updated {{ post.updated_at|%b %e %Y }}</p>
+<p>This post was last updated {{ post.updated_at|format_date('%b %e %Y') }}</p>
 
             {% if post.tags %}
             <ul class="post-tags">

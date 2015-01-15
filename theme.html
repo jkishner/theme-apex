@@ -122,6 +122,30 @@
           {% endif %}
           </ul>
         </div>
+<div>
+<script>
+  (function() {
+    var cx = '001034382975360020167:gbi4zzgik3o';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+<div>
+{% if site.tags %}
+  <div class="tags">
+    {% for tag in site.tags %}
+      <a href="/tag/{{ tag.name }}">#{{ tag.name }}</a>
+    {% endfor %}
+  </div>
+{% endif %}
+</div>
       </div>
     </div>
 

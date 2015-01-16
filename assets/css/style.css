@@ -366,8 +366,9 @@ div.header a.logo {
   border: 10px solid #ffffff;
   background-color: #000000;
   margin: 0 auto;
-  margin-top: 80px;
-  text-align: center;
+ // margin-top: 80px;
+margin-top: 200px;  
+text-align: center;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
